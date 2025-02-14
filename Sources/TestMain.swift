@@ -7,8 +7,15 @@
 
 import Foundation
 
-public class TestMain {
-    func flexiblePlugin() {
+@objc protocol TestMainProtocol {
+    @objc optional func setupPlugins()
+}
+
+public class TestMain: TestMainProtocol {
+    func initializer() {
+        (self as? TestMainProtocol)?.setupPlugins?()
+        
+        
         let plugin = PluginSet.pluginModule.init()
         plugin.pluginMethod()
     }

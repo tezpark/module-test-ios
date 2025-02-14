@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		9CC5F4A62D5DC3BE00D47806 /* AIAgentModuleTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC5F4A52D5DC3BE00D47806 /* AIAgentModuleTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CC5F4AE2D5DC3D100D47806 /* TestMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5F4AD2D5DC3D100D47806 /* TestMain.swift */; };
+		9CC5F4B12D5EE92700D47806 /* CustomPluginModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5F4B02D5EE92700D47806 /* CustomPluginModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9CC5F4A22D5DC3BE00D47806 /* AIAgentModuleTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AIAgentModuleTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC5F4A52D5DC3BE00D47806 /* AIAgentModuleTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIAgentModuleTest.h; sourceTree = "<group>"; };
 		9CC5F4AD2D5DC3D100D47806 /* TestMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMain.swift; sourceTree = "<group>"; };
+		9CC5F4B02D5EE92700D47806 /* CustomPluginModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPluginModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 		9CC5F4982D5DC3BE00D47806 = {
 			isa = PBXGroup;
 			children = (
+				9CC5F4AF2D5EE84300D47806 /* CustomPlugin */,
 				9CC5F4AC2D5DC3C300D47806 /* Sources */,
 				9CC5F4A42D5DC3BE00D47806 /* AIAgentModuleTest */,
 				9CC5F4A32D5DC3BE00D47806 /* Products */,
@@ -59,6 +62,14 @@
 				9CC5F4AD2D5DC3D100D47806 /* TestMain.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		9CC5F4AF2D5EE84300D47806 /* CustomPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				9CC5F4B02D5EE92700D47806 /* CustomPluginModule.swift */,
+			);
+			path = CustomPlugin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CC5F4AE2D5DC3D100D47806 /* TestMain.swift in Sources */,
+				9CC5F4B12D5EE92700D47806 /* CustomPluginModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
