@@ -12,6 +12,10 @@ import Foundation
 }
 
 public class TestMain: NSObject, TestMainProtocol {
+    public override init() {
+        super.init()
+    }
+    
     public func initializer() {
         (self as? TestMainProtocol)?.setupPlugins?()
         

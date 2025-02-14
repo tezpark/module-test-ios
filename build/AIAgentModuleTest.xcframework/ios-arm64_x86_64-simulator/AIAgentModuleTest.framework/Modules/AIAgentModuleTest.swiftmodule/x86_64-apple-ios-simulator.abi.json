@@ -62,6 +62,32 @@
         "printedName": "TestMain",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TestMain",
+                "printedName": "AIAgentModuleTest.TestMain",
+                "usr": "c:@M@AIAgentModuleTest@objc(cs)TestMain"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AIAgentModuleTest@objc(cs)TestMain(im)init",
+            "mangledName": "$s17AIAgentModuleTest0C4MainCACycfc",
+            "moduleName": "AIAgentModuleTest",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "initializer",
             "printedName": "initializer()",
@@ -80,32 +106,6 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "TestMain",
-                "printedName": "AIAgentModuleTest.TestMain",
-                "usr": "c:@M@AIAgentModuleTest@objc(cs)TestMain"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@AIAgentModuleTest@objc(cs)TestMain(im)init",
-            "mangledName": "$s17AIAgentModuleTest0C4MainCACycfc",
-            "moduleName": "AIAgentModuleTest",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",

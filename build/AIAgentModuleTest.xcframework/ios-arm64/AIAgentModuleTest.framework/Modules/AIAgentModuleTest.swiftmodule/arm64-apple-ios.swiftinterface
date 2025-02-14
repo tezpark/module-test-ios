@@ -11,8 +11,8 @@ import _SwiftConcurrencyShims
   @objc optional func setupPlugins()
 }
 @objc @_inheritsConvenienceInitializers public class TestMain : ObjectiveC.NSObject, AIAgentModuleTest.TestMainProtocol {
-  public func initializer()
   @objc override dynamic public init()
+  public func initializer()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class PluginSet {
