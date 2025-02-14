@@ -11,8 +11,8 @@ import Foundation
     @objc optional func setupPlugins()
 }
 
-public class TestMain: TestMainProtocol {
-    func initializer() {
+public class TestMain: NSObject, TestMainProtocol {
+    public func initializer() {
         (self as? TestMainProtocol)?.setupPlugins?()
         
         

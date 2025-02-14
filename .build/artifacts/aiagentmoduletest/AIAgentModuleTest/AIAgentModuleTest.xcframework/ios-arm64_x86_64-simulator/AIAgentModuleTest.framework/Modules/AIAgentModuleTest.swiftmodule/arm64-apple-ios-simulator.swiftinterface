@@ -1,0 +1,24 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios17.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AIAgentModuleTest
+@_exported import AIAgentModuleTest
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public protocol TestMainProtocol {
+  @objc optional func setupPlugins()
+}
+@_hasMissingDesignatedInitializers public class TestMain : AIAgentModuleTest.TestMainProtocol {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class PluginSet {
+  public static var pluginModule: AIAgentModuleTest.DefaultPluginModule.Type
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers open class DefaultPluginModule : ObjectiveC.NSObject {
+  @objc required override dynamic public init()
+  open func pluginMethod()
+  @objc deinit
+}

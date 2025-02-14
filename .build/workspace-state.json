@@ -1,0 +1,26 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "aiagentmoduletest",
+          "kind" : "root",
+          "location" : "/Users/tez.park/Documents/1_Dev/99_Test/AIAgentModuleTest",
+          "name" : "AIAgentModuleTest"
+        },
+        "path" : "/Users/tez.park/Documents/1_Dev/99_Test/AIAgentModuleTest/.build/artifacts/aiagentmoduletest/AIAgentModuleTest/AIAgentModuleTest.xcframework",
+        "source" : {
+          "checksum" : "cd97b0adbc4f95e0160d2ec1bc040b7889cfe0f376516973368e5dff4d4f3ac9",
+          "type" : "remote",
+          "url" : "https://github.com/tezpark/module-test-ios/releases/download/1.0.2/AIAgentModuleTest.xcframework.zip"
+        },
+        "targetName" : "AIAgentModuleTest"
+      }
+    ],
+    "dependencies" : [
+
+    ]
+  },
+  "version" : 6
+}
