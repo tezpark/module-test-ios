@@ -10,7 +10,9 @@ import _SwiftConcurrencyShims
 @objc public protocol TestMainProtocol {
   @objc optional func setupPlugins()
 }
-@_hasMissingDesignatedInitializers public class TestMain : AIAgentModuleTest.TestMainProtocol {
+@objc @_inheritsConvenienceInitializers public class TestMain : ObjectiveC.NSObject, AIAgentModuleTest.TestMainProtocol {
+  public func initializer()
+  @objc override dynamic public init()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class PluginSet {

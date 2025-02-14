@@ -4,21 +4,22 @@ binary-path:     '/Users/tez.park/Library/Developer/Xcode/DerivedData/AIAgentMod
 relocations:
   - { offsetInCU: 0x34, offset: 0x2ED7E, size: 0x8, addend: 0x0, symName: _AIAgentModuleTestVersionString, symObjAddr: 0x0, symBinAddr: 0x3C40, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x2EDB3, size: 0x8, addend: 0x0, symName: _AIAgentModuleTestVersionNumber, symObjAddr: 0x40, symBinAddr: 0x3C80, symSize: 0x0 }
-  - { offsetInCU: 0x78, offset: 0x2EE41, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest013DefaultPluginB0CACycfcTo', symObjAddr: 0x1F0, symBinAddr: 0x39DC, symSize: 0x3C }
-  - { offsetInCU: 0x119, offset: 0x2EEE2, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest9PluginSetC06pluginB0_WZ', symObjAddr: 0x38, symBinAddr: 0x3824, symSize: 0x1C }
-  - { offsetInCU: 0x1C9, offset: 0x2EF92, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest013DefaultPluginB0CMa', symObjAddr: 0x1D0, symBinAddr: 0x39BC, symSize: 0x20 }
-  - { offsetInCU: 0x20D, offset: 0x2EFD6, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x2AC, symBinAddr: 0x3A98, symSize: 0x40 }
-  - { offsetInCU: 0x221, offset: 0x2EFEA, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest0C4MainCMa', symObjAddr: 0x31C, symBinAddr: 0x3B08, symSize: 0x20 }
-  - { offsetInCU: 0x235, offset: 0x2EFFE, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest9PluginSetCMa', symObjAddr: 0x348, symBinAddr: 0x3B34, symSize: 0x20 }
-  - { offsetInCU: 0x2E0, offset: 0x2F0A9, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest013DefaultPluginB0CACycfC', symObjAddr: 0x0, symBinAddr: 0x37EC, symSize: 0x20 }
-  - { offsetInCU: 0x2FA, offset: 0x2F0C3, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest0C4MainCfd', symObjAddr: 0x20, symBinAddr: 0x380C, symSize: 0x8 }
-  - { offsetInCU: 0x325, offset: 0x2F0EE, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest0C4MainCfD', symObjAddr: 0x28, symBinAddr: 0x3814, symSize: 0x10 }
-  - { offsetInCU: 0x35C, offset: 0x2F125, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest9PluginSetC06pluginB0AA07DefaultdB0CmvgZ', symObjAddr: 0x54, symBinAddr: 0x3840, symSize: 0x68 }
-  - { offsetInCU: 0x389, offset: 0x2F152, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest9PluginSetC06pluginB0AA07DefaultdB0CmvsZ', symObjAddr: 0xBC, symBinAddr: 0x38A8, symSize: 0x6C }
-  - { offsetInCU: 0x3C6, offset: 0x2F18F, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest9PluginSetC06pluginB0AA07DefaultdB0CmvMZ', symObjAddr: 0x128, symBinAddr: 0x3914, symSize: 0x6C }
-  - { offsetInCU: 0x3F3, offset: 0x2F1BC, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest9PluginSetC06pluginB0AA07DefaultdB0CmvMZ.resume.0', symObjAddr: 0x194, symBinAddr: 0x3980, symSize: 0x4 }
-  - { offsetInCU: 0x414, offset: 0x2F1DD, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest9PluginSetCfd', symObjAddr: 0x198, symBinAddr: 0x3984, symSize: 0x8 }
-  - { offsetInCU: 0x439, offset: 0x2F202, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest013DefaultPluginB0CACycfc', symObjAddr: 0x1A0, symBinAddr: 0x398C, symSize: 0x30 }
-  - { offsetInCU: 0x498, offset: 0x2F261, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest013DefaultPluginB0C12pluginMethodyyF', symObjAddr: 0x22C, symBinAddr: 0x3A18, symSize: 0x80 }
-  - { offsetInCU: 0x4ED, offset: 0x2F2B6, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest013DefaultPluginB0CfD', symObjAddr: 0x2EC, symBinAddr: 0x3AD8, symSize: 0x30 }
+  - { offsetInCU: 0x89, offset: 0x2EE52, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest013DefaultPluginB0CACycfcTo', symObjAddr: 0x36C, symBinAddr: 0x39BC, symSize: 0x3C }
+  - { offsetInCU: 0x113, offset: 0x2EEDC, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest0C4MainCACycfcTo', symObjAddr: 0x13C, symBinAddr: 0x378C, symSize: 0x3C }
+  - { offsetInCU: 0x14F, offset: 0x2EF18, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest9PluginSetC06pluginB0_WZ', symObjAddr: 0x184, symBinAddr: 0x37D4, symSize: 0x1C }
+  - { offsetInCU: 0x169, offset: 0x2EF32, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest0C4MainCMa', symObjAddr: 0x1A0, symBinAddr: 0x37F0, symSize: 0x20 }
+  - { offsetInCU: 0x218, offset: 0x2EFE1, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest013DefaultPluginB0CMa', symObjAddr: 0x34C, symBinAddr: 0x399C, symSize: 0x20 }
+  - { offsetInCU: 0x25C, offset: 0x2F025, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x428, symBinAddr: 0x3A78, symSize: 0x40 }
+  - { offsetInCU: 0x270, offset: 0x2F039, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest9PluginSetCMa', symObjAddr: 0x4B0, symBinAddr: 0x3B00, symSize: 0x20 }
+  - { offsetInCU: 0x32E, offset: 0x2F0F7, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest0C4MainC11initializeryyF', symObjAddr: 0x0, symBinAddr: 0x3650, symSize: 0xEC }
+  - { offsetInCU: 0x38C, offset: 0x2F155, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest013DefaultPluginB0CACycfC', symObjAddr: 0xEC, symBinAddr: 0x373C, symSize: 0x20 }
+  - { offsetInCU: 0x3A0, offset: 0x2F169, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest0C4MainCACycfc', symObjAddr: 0x10C, symBinAddr: 0x375C, symSize: 0x30 }
+  - { offsetInCU: 0x3E2, offset: 0x2F1AB, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest9PluginSetC06pluginB0AA07DefaultdB0CmvgZ', symObjAddr: 0x1C0, symBinAddr: 0x3810, symSize: 0x68 }
+  - { offsetInCU: 0x40F, offset: 0x2F1D8, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest9PluginSetC06pluginB0AA07DefaultdB0CmvsZ', symObjAddr: 0x228, symBinAddr: 0x3878, symSize: 0x6C }
+  - { offsetInCU: 0x44C, offset: 0x2F215, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest9PluginSetC06pluginB0AA07DefaultdB0CmvMZ', symObjAddr: 0x294, symBinAddr: 0x38E4, symSize: 0x6C }
+  - { offsetInCU: 0x479, offset: 0x2F242, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest9PluginSetC06pluginB0AA07DefaultdB0CmvMZ.resume.0', symObjAddr: 0x300, symBinAddr: 0x3950, symSize: 0x4 }
+  - { offsetInCU: 0x4A0, offset: 0x2F269, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest9PluginSetCfd', symObjAddr: 0x304, symBinAddr: 0x3954, symSize: 0x8 }
+  - { offsetInCU: 0x4C5, offset: 0x2F28E, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest9PluginSetCfD', symObjAddr: 0x30C, symBinAddr: 0x395C, symSize: 0x10 }
+  - { offsetInCU: 0x4EA, offset: 0x2F2B3, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest013DefaultPluginB0CACycfc', symObjAddr: 0x31C, symBinAddr: 0x396C, symSize: 0x30 }
+  - { offsetInCU: 0x549, offset: 0x2F312, size: 0x8, addend: 0x0, symName: '_$s17AIAgentModuleTest013DefaultPluginB0C12pluginMethodyyF', symObjAddr: 0x3A8, symBinAddr: 0x39F8, symSize: 0x80 }
 ...
