@@ -11,10 +11,11 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class PluginSet {
-  public static var DefaultPluginModule: AIAgentModuleTest.DefaultPluginModule.Type
+  public static var pluginModule: AIAgentModuleTest.DefaultPluginModule.Type
   @objc deinit
 }
-@_hasMissingDesignatedInitializers open class DefaultPluginModule {
+@objc @_inheritsConvenienceInitializers open class DefaultPluginModule : ObjectiveC.NSObject {
+  @objc required override dynamic public init()
   open func pluginMethod()
   @objc deinit
 }
