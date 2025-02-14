@@ -1,0 +1,6 @@
+framework module AIAgentModuleTest {
+  umbrella header "AIAgentModuleTest.h"
+  export *
+
+  module * { export * }
+}

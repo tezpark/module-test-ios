@@ -1,0 +1,209 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AIAgentModuleTest",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TestMain",
+        "printedName": "TestMain",
+        "declKind": "Class",
+        "usr": "s:17AIAgentModuleTest0C4MainC",
+        "mangledName": "$s17AIAgentModuleTest0C4MainC",
+        "moduleName": "AIAgentModuleTest",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PluginSet",
+        "printedName": "PluginSet",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "DefaultPluginModule",
+            "printedName": "DefaultPluginModule",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "AIAgentModuleTest.DefaultPluginModule.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultPluginModule",
+                    "printedName": "AIAgentModuleTest.DefaultPluginModule",
+                    "usr": "s:17AIAgentModuleTest013DefaultPluginB0C"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17AIAgentModuleTest9PluginSetC07DefaultdB0AaDCmvpZ",
+            "mangledName": "$s17AIAgentModuleTest9PluginSetC07DefaultdB0AaDCmvpZ",
+            "moduleName": "AIAgentModuleTest",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AIAgentModuleTest.DefaultPluginModule.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DefaultPluginModule",
+                        "printedName": "AIAgentModuleTest.DefaultPluginModule",
+                        "usr": "s:17AIAgentModuleTest013DefaultPluginB0C"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17AIAgentModuleTest9PluginSetC07DefaultdB0AaDCmvgZ",
+                "mangledName": "$s17AIAgentModuleTest9PluginSetC07DefaultdB0AaDCmvgZ",
+                "moduleName": "AIAgentModuleTest",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AIAgentModuleTest.DefaultPluginModule.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DefaultPluginModule",
+                        "printedName": "AIAgentModuleTest.DefaultPluginModule",
+                        "usr": "s:17AIAgentModuleTest013DefaultPluginB0C"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17AIAgentModuleTest9PluginSetC07DefaultdB0AaDCmvsZ",
+                "mangledName": "$s17AIAgentModuleTest9PluginSetC07DefaultdB0AaDCmvsZ",
+                "moduleName": "AIAgentModuleTest",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17AIAgentModuleTest9PluginSetC07DefaultdB0AaDCmvMZ",
+                "mangledName": "$s17AIAgentModuleTest9PluginSetC07DefaultdB0AaDCmvMZ",
+                "moduleName": "AIAgentModuleTest",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17AIAgentModuleTest9PluginSetC",
+        "mangledName": "$s17AIAgentModuleTest9PluginSetC",
+        "moduleName": "AIAgentModuleTest",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultPluginModule",
+        "printedName": "DefaultPluginModule",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "pluginMethod",
+            "printedName": "pluginMethod()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17AIAgentModuleTest013DefaultPluginB0C12pluginMethodyyF",
+            "mangledName": "$s17AIAgentModuleTest013DefaultPluginB0C12pluginMethodyyF",
+            "moduleName": "AIAgentModuleTest",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17AIAgentModuleTest013DefaultPluginB0C",
+        "mangledName": "$s17AIAgentModuleTest013DefaultPluginB0C",
+        "moduleName": "AIAgentModuleTest",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
