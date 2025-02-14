@@ -16,6 +16,48 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "TestMainProtocol",
+        "printedName": "TestMainProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setupPlugins",
+            "printedName": "setupPlugins()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AIAgentModuleTest@objc(pl)TestMainProtocol(im)setupPlugins",
+            "mangledName": "$s17AIAgentModuleTest0C12MainProtocolP12setupPluginsyyF",
+            "moduleName": "AIAgentModuleTest",
+            "genericSig": "<τ_0_0 where τ_0_0 : AIAgentModuleTest.TestMainProtocol>",
+            "sugared_genericSig": "<Self where Self : AIAgentModuleTest.TestMainProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@AIAgentModuleTest@objc(pl)TestMainProtocol",
+        "mangledName": "$s17AIAgentModuleTest0C12MainProtocolP",
+        "moduleName": "AIAgentModuleTest",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "TestMain",
         "printedName": "TestMain",
         "declKind": "Class",
@@ -25,7 +67,16 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "TestMainProtocol",
+            "printedName": "TestMainProtocol",
+            "usr": "c:@M@AIAgentModuleTest@objc(pl)TestMainProtocol",
+            "mangledName": "$s17AIAgentModuleTest0C12MainProtocolP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",

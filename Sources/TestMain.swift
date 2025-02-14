@@ -7,7 +7,7 @@
 
 import Foundation
 
-@objc protocol TestMainProtocol {
+@objc public protocol TestMainProtocol {
     @objc optional func setupPlugins()
 }
 

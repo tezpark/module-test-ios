@@ -7,7 +7,10 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class TestMain {
+@objc public protocol TestMainProtocol {
+  @objc optional func setupPlugins()
+}
+@_hasMissingDesignatedInitializers public class TestMain : AIAgentModuleTest.TestMainProtocol {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class PluginSet {
