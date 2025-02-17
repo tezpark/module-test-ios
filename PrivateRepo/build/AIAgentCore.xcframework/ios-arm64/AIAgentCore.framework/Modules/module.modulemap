@@ -1,6 +1,0 @@
-framework module AIAgentCore {
-  umbrella header "AIAgentCore.h"
-  export *
-
-  module * { export * }
-}

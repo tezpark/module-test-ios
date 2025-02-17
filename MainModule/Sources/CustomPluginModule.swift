@@ -13,9 +13,3 @@ open class CustomPluginModule: DefaultPluginModule {
         print("[custom] test core")
     }
 }
-
-extension TestMainProtocol {
-    func setupPlugins() {
-        PluginSet.pluginModule = CustomPluginModule.self
-    }
-}

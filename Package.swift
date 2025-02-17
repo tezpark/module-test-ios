@@ -17,9 +17,7 @@ let package = Package(
         ),
         .target(
             name: "MainModule",
-            dependencies: [
-                "AIAgentCore" // ✅ AIAgentCore를 MainModule에서 사용
-            ],
+            dependencies: ["AIAgentCore"],
             path: "./MainModule/Sources"
         )
     ]
