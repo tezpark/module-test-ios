@@ -1,0 +1,396 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AIAgentCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AIAgentBase",
+        "printedName": "AIAgentBase",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AIAgentBase",
+                "printedName": "AIAgentCore.AIAgentBase",
+                "usr": "c:@M@AIAgentCore@objc(cs)AIAgentBase"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AIAgentCore@objc(cs)AIAgentBase(im)init",
+            "mangledName": "$s11AIAgentCore0A4BaseCACycfc",
+            "moduleName": "AIAgentCore",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "baseInitializer",
+            "printedName": "baseInitializer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AIAgentCore0A4BaseC15baseInitializeryyF",
+            "mangledName": "$s11AIAgentCore0A4BaseC15baseInitializeryyF",
+            "moduleName": "AIAgentCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AIAgentCore@objc(cs)AIAgentBase",
+        "mangledName": "$s11AIAgentCore0A4BaseC",
+        "moduleName": "AIAgentCore",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PluginSet",
+        "printedName": "PluginSet",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "pluginModule",
+            "printedName": "pluginModule",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "AIAgentCore.DefaultPluginModule.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultPluginModule",
+                    "printedName": "AIAgentCore.DefaultPluginModule",
+                    "usr": "c:@M@AIAgentCore@objc(cs)DefaultPluginModule"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11AIAgentCore9PluginSetC12pluginModuleAA07DefaultcF0CmvpZ",
+            "mangledName": "$s11AIAgentCore9PluginSetC12pluginModuleAA07DefaultcF0CmvpZ",
+            "moduleName": "AIAgentCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AIAgentCore.DefaultPluginModule.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DefaultPluginModule",
+                        "printedName": "AIAgentCore.DefaultPluginModule",
+                        "usr": "c:@M@AIAgentCore@objc(cs)DefaultPluginModule"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AIAgentCore9PluginSetC12pluginModuleAA07DefaultcF0CmvgZ",
+                "mangledName": "$s11AIAgentCore9PluginSetC12pluginModuleAA07DefaultcF0CmvgZ",
+                "moduleName": "AIAgentCore",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AIAgentCore.DefaultPluginModule.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DefaultPluginModule",
+                        "printedName": "AIAgentCore.DefaultPluginModule",
+                        "usr": "c:@M@AIAgentCore@objc(cs)DefaultPluginModule"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AIAgentCore9PluginSetC12pluginModuleAA07DefaultcF0CmvsZ",
+                "mangledName": "$s11AIAgentCore9PluginSetC12pluginModuleAA07DefaultcF0CmvsZ",
+                "moduleName": "AIAgentCore",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AIAgentCore9PluginSetC12pluginModuleAA07DefaultcF0CmvMZ",
+                "mangledName": "$s11AIAgentCore9PluginSetC12pluginModuleAA07DefaultcF0CmvMZ",
+                "moduleName": "AIAgentCore",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11AIAgentCore9PluginSetC",
+        "mangledName": "$s11AIAgentCore9PluginSetC",
+        "moduleName": "AIAgentCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultPluginModule",
+        "printedName": "DefaultPluginModule",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultPluginModule",
+                "printedName": "AIAgentCore.DefaultPluginModule",
+                "usr": "c:@M@AIAgentCore@objc(cs)DefaultPluginModule"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AIAgentCore@objc(cs)DefaultPluginModule(im)init",
+            "mangledName": "$s11AIAgentCore19DefaultPluginModuleCACycfc",
+            "moduleName": "AIAgentCore",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "pluginMethod",
+            "printedName": "pluginMethod()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AIAgentCore19DefaultPluginModuleC12pluginMethodyyF",
+            "mangledName": "$s11AIAgentCore19DefaultPluginModuleC12pluginMethodyyF",
+            "moduleName": "AIAgentCore",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AIAgentCore@objc(cs)DefaultPluginModule",
+        "mangledName": "$s11AIAgentCore19DefaultPluginModuleC",
+        "moduleName": "AIAgentCore",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

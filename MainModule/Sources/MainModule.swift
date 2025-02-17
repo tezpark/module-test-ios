@@ -9,6 +9,7 @@ import Foundation
 import AIAgentCore
 
 public class MainModule: NSObject {
+    var base: AIAgentBase?
     public override init() {
         super.init()
     }
@@ -16,7 +17,7 @@ public class MainModule: NSObject {
     public func initializer() {
         PluginSet.pluginModule = CustomPluginModule.self
         
-        let plugin = PluginSet.pluginModule.init()
-        plugin.pluginMethod()
+        self.base = AIAgentBase()
+        self.base?.baseInitializer()
     }
 }
