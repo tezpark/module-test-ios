@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import AIAgentModuleTest
+import AIAgentCore
 
 open class CustomPluginModule: DefaultPluginModule {
     override open func pluginMethod() {
