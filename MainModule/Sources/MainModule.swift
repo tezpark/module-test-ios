@@ -1,12 +1,12 @@
 //
 //  MainModule.swift
-//  AIAgentModuleTest
+//  AIAgentCore
 //
 //  Created by Tez Park on 2/13/25.
 //
 
 import Foundation
-import AIAgentModuleTest
+import AIAgentCore
 
 public class MainModule: NSObject {
     public override init() {

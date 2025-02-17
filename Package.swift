@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "RootPackage",
+    name: "AIAgent",
     platforms: [.iOS(.v13)],
     products: [
         .library(name: "AIAgentCore", targets: ["AIAgentCore"]),
