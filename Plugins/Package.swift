@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
 //        .package(url: "https://github.com/tezpark/module-test-ios.git", from: "1.0.0") // 1.0.0 ≤ x < 2.0.0
-        .package(url: "https://github.com/tezpark/module-test-ios.git", "1.0.4"..."1.0.4") // 1.0.4
+        .package(url: "https://github.com/tezpark/module-test-ios.git", "1.0.4"..."1.1.0") // 1.0.4
     ],
     targets: [
         .target(
