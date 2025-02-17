@@ -6,8 +6,8 @@ let package = Package(
     name: "RootPackage",
     products: [],
     dependencies: [
-//        .package(path: "./Core"),   ✅ Core 패키지 추가
-        .package(path: "./Plugins")   // ✅ Sub 패키지 추가
+        .package(path: "./Core"),   // ✅ Core 패키지 추가
+        .package(path: "./MainModule")   // ✅ Sub 패키지 추가
     ],
     targets: []
 )
