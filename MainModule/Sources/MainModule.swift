@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import AIAgentCore
+@_exported import AIAgentCore
 
 public class MainModule: NSObject {
     var base: AIAgentBase?
