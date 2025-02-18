@@ -21,3 +21,11 @@ public class MainModule: NSObject {
         self.base?.baseInitializer()
     }
 }
+
+public extension AIAgentBase {
+    public func initializer2() {
+        PluginSet.pluginModule = CustomPluginModule.self
+        
+        self.baseInitializer()
+    }
+}
