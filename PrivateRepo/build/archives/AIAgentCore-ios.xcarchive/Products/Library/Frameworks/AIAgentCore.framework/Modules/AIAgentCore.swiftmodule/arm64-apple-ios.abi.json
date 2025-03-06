@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "AIAgentCore",
+    "printedName": "AIAgentCore",
     "children": [
       {
         "kind": "Import",
@@ -16,8 +16,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "AIAgentBase",
-        "printedName": "AIAgentBase",
+        "name": "AIAgentMain",
+        "printedName": "AIAgentMain",
         "children": [
           {
             "kind": "Constructor",
@@ -26,14 +26,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "AIAgentBase",
-                "printedName": "AIAgentCore.AIAgentBase",
-                "usr": "c:@M@AIAgentCore@objc(cs)AIAgentBase"
+                "name": "AIAgentMain",
+                "printedName": "AIAgentCore.AIAgentMain",
+                "usr": "c:@M@AIAgentCore@objc(cs)AIAgentMain"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AIAgentCore@objc(cs)AIAgentBase(im)init",
-            "mangledName": "$s11AIAgentCore0A4BaseCACycfc",
+            "usr": "c:@M@AIAgentCore@objc(cs)AIAgentMain(im)init",
+            "mangledName": "$s11AIAgentCore0A4MainCACycfc",
             "moduleName": "AIAgentCore",
             "overriding": true,
             "objc_name": "init",
@@ -57,8 +57,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11AIAgentCore0A4BaseC15baseInitializeryyF",
-            "mangledName": "$s11AIAgentCore0A4BaseC15baseInitializeryyF",
+            "usr": "s:11AIAgentCore0A4MainC15baseInitializeryyF",
+            "mangledName": "$s11AIAgentCore0A4MainC15baseInitializeryyF",
             "moduleName": "AIAgentCore",
             "declAttributes": [
               "AccessControl"
@@ -67,8 +67,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@AIAgentCore@objc(cs)AIAgentBase",
-        "mangledName": "$s11AIAgentCore0A4BaseC",
+        "usr": "c:@M@AIAgentCore@objc(cs)AIAgentMain",
+        "mangledName": "$s11AIAgentCore0A4MainC",
         "moduleName": "AIAgentCore",
         "declAttributes": [
           "AccessControl",
@@ -80,6 +80,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -267,7 +281,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -338,6 +368,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",

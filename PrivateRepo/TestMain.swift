@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class AIAgentBase: NSObject {
+public class AIAgentMain: NSObject {
     public override init() {
         super.init()
     }

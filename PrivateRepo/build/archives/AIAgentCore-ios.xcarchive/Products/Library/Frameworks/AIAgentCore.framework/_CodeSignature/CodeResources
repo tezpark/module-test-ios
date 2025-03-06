@@ -10,27 +10,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AyoKHqCPmsdip37Ve18WKVixDug=
+		TbFEwLLZ5CencAMgjfubVlf/550=
 		</data>
 		<key>Modules/AIAgentCore.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		xKlcJoQFCj64UtGrNlN+wTZmxjw=
+		DR0Jjx4fruuFj2pBaJAux5iapC4=
 		</data>
 		<key>Modules/AIAgentCore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		pxt/SKbix0qIadj6IpvO0eT98tc=
+		idIIYPykzWi4acbqkC4yfAWQMiI=
 		</data>
 		<key>Modules/AIAgentCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		JTglPZOBaUIsCi8bPNseop1glWE=
+		z+rsOkC9leYQ0v2HX39D6uAkJCU=
 		</data>
 		<key>Modules/AIAgentCore.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		pxt/SKbix0qIadj6IpvO0eT98tc=
+		idIIYPykzWi4acbqkC4yfAWQMiI=
 		</data>
 		<key>Modules/AIAgentCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		AZ7lLsA0tBnSogFqMzFRKSx7tQk=
+		oJq5JgRFqKgi2SbUT17NlpCE/7o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,35 +50,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IBIb2WGOntyEXtSPXlOgfqx1j0R/pWQ+MJutQK1bpAE=
+			ukeFrBWik1Z3iHKnUEojBMo4OhH06ebkUHt1htDuwn0=
 			</data>
 		</dict>
 		<key>Modules/AIAgentCore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wTFX+frrXQWqBUFiC4Wz8vOI/SV7ycLKlfYRSX5MNG0=
+			Rmih3nd9Er2QSUIgZaY+xh3YTs37ho/gIdZgkRoKF6g=
 			</data>
 		</dict>
 		<key>Modules/AIAgentCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uI4azSauSccuxG6hpv5MevIpy6C643G9TzQBcXnyqTw=
+			r7k4f07BRj/6GXQ+IvroXI1HZxOeZGeaA3NmRpr9oeY=
 			</data>
 		</dict>
 		<key>Modules/AIAgentCore.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wTFX+frrXQWqBUFiC4Wz8vOI/SV7ycLKlfYRSX5MNG0=
+			Rmih3nd9Er2QSUIgZaY+xh3YTs37ho/gIdZgkRoKF6g=
 			</data>
 		</dict>
 		<key>Modules/AIAgentCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lTm+4cFpb1Td1GE/GL3NyAdlJJAQ9deq/SbSrs1tmdA=
+			5GyYCbbVT17XRJrGbDvVtnpQPHdytMm7LbAG4rn9chA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

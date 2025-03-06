@@ -5,20 +5,14 @@ let package = Package(
     name: "AIAgent",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: "AIAgentCore", targets: ["AIAgentCore"]),
-        .library(name: "MainModule", targets: ["MainModule"])
+        .library(name: "AIAgentCore", targets: ["AIAgentCore"])
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
             name: "AIAgentCore",
-            url: "https://github.com/tezpark/module-test-ios/releases/download/1.0.8/AIAgentCore.xcframework.zip",
-            checksum: "90ac08eb829dcb25b459f4e0a49bb4164a2eeb13ae096fc872d1edd437d79fe7"
-        ),
-        .target(
-            name: "MainModule",
-            dependencies: ["AIAgentCore"],
-            path: "./MainModule/Sources"
+            url: "https://github.com/tezpark/module-test-ios/releases/download/1.0.9/AIAgentCore.xcframework.zip",
+            checksum: "23d3c14b73784dca31f55fc44b9a0bc958cf127b57348776dc11483225e2418d"
         )
     ]
 )
