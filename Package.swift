@@ -11,8 +11,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AIAgentCore",
-            url: "https://github.com/tezpark/module-test-ios/releases/download/1.0.10/AIAgentCore.xcframework.zip",
-            checksum: "7accffb5e9aa731bda744bd63a52f05b4d39661d4e2ae220727ac8f412cb193a"
+            url: "https://github.com/tezpark/module-test-ios/releases/download/1.0.11/AIAgentCore.xcframework.zip",
+            checksum: "688233746c03bc8e3c79ef0f39decb11e2be787f87d373e78162a417bf630fcb"
         )
     ]
 )
