@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.10
 import PackageDescription
 
 let package = Package(
@@ -11,8 +11,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AIAgentCore",
-            url: "https://github.com/tezpark/module-test-ios/releases/download/1.0.11/AIAgentCore.xcframework.zip",
-            checksum: "688233746c03bc8e3c79ef0f39decb11e2be787f87d373e78162a417bf630fcb"
+            url: "https://github.com/tezpark/module-test-ios/releases/download/1.0.12/AIAgentCore.xcframework.zip",
+            checksum: "b86509fa8dda12a8d71296ab341a9f5fa94be049fadaa6d073c4d01a042fe9a6"
         )
     ]
 )
